@@ -1,0 +1,353 @@
+<html>
+    <head>
+        <title>Tablas en html</title>
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        header,nav,main,footer{
+                width: 100%;
+                color: orange;
+                padding: 30px;
+                box-sizing: border-box;
+            }
+         header,footer{
+                height: 100px;
+                background-color: darkorange;
+                text-align: center;
+             }
+            header{
+                height: 100px;
+                background-color: darkorange;
+                color: papayawhip;
+            }
+            nav{
+                height: auto;
+                background-color: saddlebrown;
+            }
+        main{
+                height: auto;
+                background-color: papayawhip;
+                
+            }
+        footer{
+                height: 60px;
+                background-color: darkorange;
+            }
+        section{
+                width: 90%;
+                height: auto;
+                background-color: peru;
+                color: black;
+                margin-bottom: 30px;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        h2{
+                margin-bottom: 30px;
+                color: black;
+            }
+        nav,ul,li{
+                width: 10%;
+                background-color: peru;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                list-style-type: none;
+                padding: 10px;
+                display: inline-block;
+                text-align: center;
+            }
+            nav,ul,li a{
+                text-decoration: none;
+                margin-bottom: auto;
+                
+            }
+            p{
+                
+            }
+            nav,ul{
+                text-align: center;
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            table{
+                background-color: burlywood;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            #tab_buap{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                border-spacing: 10px;
+                border-collapse: collapse;
+                
+            }
+            #tab_buap th{
+                background-color: darkorange;
+                color: blue;
+                height: 30px;
+                
+            }
+            #tab_buap td{
+                background-color: papayawhip;
+                color: darkblue;
+                height: 30px;
+                padding: 10px;
+            }
+            #tab_buap th, #tab_buap td{
+                border-width: 10px;
+                border-color: orange;
+                border-style: solid;
+            }
+            #tab_libros{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #tab_libros th{
+                height: 50px;
+                background-color: darkorange;
+                color: bisque;
+            }
+            #tab_libros tbody tr:nth-child(even){
+                background-color: beige;
+            }
+            #tab_libros tbody tr:nth-child(odd){
+                background-color: orange;
+            }
+            #tab_libros tfoot tr{
+                background-color: saddlebrown;
+            }
+            #tab_libros td{
+                height: 30px;
+                padding: 
+            }
+         </style>
+    </head>
+    <body>
+        <header>
+            <h1>TABLAS</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="formatos%20texto.html">Formatos</a> </li>
+                <li><a href="Listas%20actualizado%20en%20html.html">Listas</a> </li>
+                <li><a href="Enlaces%20actualizado.html">Enlaces</a> </li>
+                <li><a href="tablas.html">Tablas</a> </li>
+                <li><a href=""></a>Imagenes</li>
+                <li><a href=""></a>Audio</li>
+                <li><a href=""></a>Video</li>
+                <li><a href=""></a>Formularios</li>
+                
+            </ul>
+        </nav>
+     <main>
+            <section>
+                <h2>Tablas</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id felis nisi. Proin orci ipsum, porttitor vitae euismod at, semper eget metus. Integer consectetur diam eu arcu tristique, ac tempus tellus vestibulum. Proin dignissim turpis erat, ac pharetra augue imperdiet eget. In quis tellus sagittis, vehicula urna sit amet, laoreet turpis. Praesent sed maximus leo, non efficitur lacus. Cras eget molestie sem, non hendrerit sapien. Curabitur nec arcu finibus, fermentum eros eu, rhoncus massa.</p>
+                    <table id="tab_buap" border="1">
+                    <thead>
+                        <tr>
+                            <th>Matricula</th>
+                            <th>Nombre</th>
+                            <th>Facultad</th>
+                            <th>Celular</th>
+                            <th>Email</th>
+                        </tr>    
+                        
+                    </thead>
+                        
+                    <tbody>
+                        <tr>
+                            <td>202254545</td>
+                            <td>Evelin Oli Oliv</td>   
+                            <td>Turismo</td>
+                            <td>2224516835</td>
+                            <td>eveli.oli.oli@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>201958456</td>
+                            <td>Juana Lopez Fernadez</td>   
+                            <td>Gastronomía</td>
+                            <td>2451657845</td>
+                            <td>juan.j.lopez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>202245486</td>
+                            <td>Fernando Sartillo Jimenez</td> <td>Comunicacion</td>
+                            <td>2478456912</td>
+                            <td>Fer.ji.sar@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>201854925</td>
+                            <td>America Contreras Hernandez</td>   
+                            <td>Fisica</td>
+                            <td>2451853465</td>
+                            <td>ame.sartillo@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>201958456</td>
+                            <td>Mario Lopez Fernadez</td>   
+                            <td>Gastronomía</td>
+                            <td>2451657845</td>
+                            <td>juan.j.lopez@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>202245486</td>
+                            <td>Sergio Martinez Jimenez</td> <td>Comunicacion</td>
+                            <td>2478456912</td>
+                            <td>Ser.ji.sar@gmail.com</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </section>
+           
+         <section>
+                <h2>Tablas</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id felis nisi. Proin orci ipsum, porttitor vitae euismod at, semper eget metus. Integer consectetur diam eu arcu tristique, ac tempus tellus vestibulum. Proin dignissim turpis erat, ac pharetra augue imperdiet eget. In quis tellus sagittis, vehicula urna sit amet, laoreet turpis. Praesent sed maximus leo, non efficitur lacus. Cras eget molestie sem, non hendrerit sapien. Curabitur nec arcu finibus, fermentum eros eu, rhoncus massa.</p>
+                <table id="tab_libros" border="1">
+                    <thead>
+                        <tr>
+                            <th>Titulo</th>
+                            <th>Autor</th>
+                            <th>Editorial</th>
+                            <th>Año</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Intermitencias de la muerte</td>
+                            <td>Jose Saramago</td>
+                            <td></td>
+                            <td></td>
+                            <td>320.00</td>
+                        </tr>
+                        <tr>
+                            <td>Ensayo sobre la ceguera</td>
+                            <td>Jose Saramago</td>
+                            <td></td>
+                            <td></td>
+                            <td>450.00</td>
+                        </tr>
+                         <tr>
+                            <td>After Dark</td>
+                            <td>Haruki Murakami</td>
+                            <td></td>
+                            <td></td>
+                            <td>520.00</td>
+                        </tr>
+                        <tr>
+                            <td>El hombre duplicado</td>
+                            <td>Jose Saramago</td>
+                            <td></td>
+                            <td></td>
+                            <td>154.00</td>
+                        </tr>
+                         <tr>
+                            <td>Cronicas de una muerte anunciada</td>
+                            <td>Gabriel Garcia Maquez</td>
+                            <td></td>
+                            <td></td>
+                            <td>289.00</td>
+                        </tr>
+                        <tr>
+                            <td>Alicia en el pais de las maravillas</td>
+                            <td>Lewis Caroll</td>
+                            <td></td>
+                            <td></td>
+                            <td>362.00</td>
+                        </tr>
+                    
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>1245.00</td>
+                        </tr>
+                    </tfoot>
+             </table>
+         </section>
+         <section>
+                <h2>Tablas</h2>
+                    <p>Integer consectetur diam eu arcu tristique, ac tempus tellus vestibulum. Proin dignissim turpis erat, ac pharetra augue imperdiet eget. In quis tellus sagittis, vehicula urna sit amet, laoreet turpis. Praesent sed maximus leo, non efficitur lacus. Cras eget molestie sem, non hendrerit sapien. Curabitur nec arcu finibus, fermentum eros eu, rhoncus massa.Cras eget molestie sem, non hendrerit sapien. Curabitur nec arcu finibus, fermentum eros eu, rhoncus massa. </p>
+             <table>
+                    <thead>
+                        <tr>
+                            <th>Titulo</th>
+                            <th>Autor</th>
+                            <th>Editorial</th>
+                            <th>Año</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Intermitencias de la muerte</td>
+                            <td>Jose Saramago</td>
+                            <td></td>
+                            <td></td>
+                            <td>320.00</td>
+                        </tr>
+                        <tr>
+                            <td>Ensayo sobre la ceguera</td>
+                            <td>Jose Saramago</td>
+                            <td></td>
+                            <td></td>
+                            <td>450.00</td>
+                        </tr>
+                         <tr>
+                            <td>After Dark</td>
+                            <td>Haruki Murakami</td>
+                            <td></td>
+                            <td></td>
+                            <td>520.00</td>
+                        </tr>
+                        <tr>
+                            <td>El hombre duplicado</td>
+                            <td>Jose Saramago</td>
+                            <td></td>
+                            <td></td>
+                            <td>154.00</td>
+                        </tr>
+                         <tr>
+                            <td>Cronicas de una muerte anunciada</td>
+                            <td>Gabriel Garcia Maquez</td>
+                            <td></td>
+                            <td></td>
+                            <td>289.00</td>
+                        </tr>
+                        <tr>
+                            <td>Alicia en el pais de las maravillas</td>
+                            <td>Lewis Caroll</td>
+                            <td></td>
+                            <td></td>
+                            <td>362.00</td>
+                        </tr>
+                    
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+             </table>
+         </section>
+         </main>
+        <footer>
+            <h6>Elaborado por Evelin Johana Olivares MOntes</h6>
+        </footer>
+    </body>
+</html>

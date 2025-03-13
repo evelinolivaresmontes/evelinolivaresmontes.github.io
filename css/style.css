@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,nav,main,footer{
+    width: 100%;
+    padding: 30px;
+    background-color: #B82132;
+    color: #F6DED8;
+}
+header,footer{
+    text-align: center;
+    font-size: 48px;
+    
+}
+nav{
+    background-color: #F2B28C;
+    height: 120px;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    width: 10%;
+    min-width: 100px;
+    height: 60px;
+    background-color: #B82132;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main{
+    height: auto;
+    background-color: #B82132;
+    color: #B82132;
+    padding: 10px;
+}
+footer{
+    font-size: 24px;
+}
+section{
+    width: 70%;
+    height: auto;
+    background-color: #D2665A;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    color: #F6DED8;
+}
+p{
+    margin-top: 20px;
+    
+    }
+h2{
+    color: #B82132;
+}
+h1{
+    font-family: "Staatliches", serif;
+}
+header h1,footer h6{
+                text-align: center;
+            }
+
+            a{text-decoration: none;
+            }
+
+            a:link{ color: #F6DED8; 
+            }
+
+            a:visited{
+                color: #F6DED8;
+            }
+
+            a:active{
+                color: aqua;
+            }
+
+            a:hover{
+                color: orangered;
+            }
+nav ul li:hover{
+                width: 12%;
+                background-color: #D2665A;
+                color: springgreen;
+            }
+
+img{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#img_gif{
+    width: 30%;
+    border-radius: 50%;
+}
+.imgfloat{
+    width: 15%;
+    min-width: 10%
+    
+}
+#img_izq{
+    float: left;
+    margin: 0;
+    margin-right: 20px;
+}
+
+#img_der{
+    float: right;
+    margin: 0;
+}
+#img_ico{
+    width: 64px;
+    height: auto;
+    margin-right: 0;
+}
+#fondo{
+    height: 800px;
+    background-image:url("../imagenes/bosque.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+video,iframe{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+.box_video section{
+    text-align: center;
+}
+.box_videos section{
+    width: 45%;
+    min-width: 360px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 680px;
+    overflow-y: auto;
+}
+.box_video section p{
+    text-align: justify;
+}

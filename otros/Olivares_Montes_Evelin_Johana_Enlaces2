@@ -1,0 +1,166 @@
+<!---
+FACULTAD DE ARQUITECTURA
+COLEGIO DE DISEÑO GRAFICO
+DISEÑO DE INTERFACES
+OLIVARES MONTES EVELIN JOHANA--->
+<html>
+    <head>
+        <title>Enlaces en html</title>
+        <style type="text/css">
+               *{
+                    padding: 0;
+                    margin: 0;
+               }
+               header,nav,main,footer{
+               width: 80%;
+               background-color: deeppink;
+                color: papayawhip;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+               }
+            header{
+                height: 100 px;
+                background-color: deeppink;
+                color: lightpink;
+                text-align: center;
+            }
+            nav{
+                height: auto;
+                background-color: antiquewhite
+            }
+             nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                list-style-type: none;
+                width: 10%;
+                height: 30px;
+                background-color: peru;
+                display: inline-block;
+                padding: 20px;
+            }
+            main{
+                height: auto;
+                background-color: palevioletred;
+            }
+            footer{
+                height: 40px;
+            }
+            section{
+                width: 70%;
+                height: 170px;
+                background-color: antiquewhite;
+                color: palevioletred;
+                margin-bottom: 30px;
+                padding: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                overflow-y: scroll;
+            }
+            h2{
+                margin-bottom: 20px;
+            }
+            header h1,footer h6{
+                text-align: center;
+            }
+            a{text-decoration: none;
+            }
+            a:link{ color: pink;
+                
+            }
+            a:visited{
+                color: chartreuse;
+            }
+            a:active{
+                color: aqua;
+            }
+            a:hover{
+                color: dodgerblue;
+            }
+            nav ul li:hover{
+                width: 12%;
+                background-color: deeppink;
+                color: springgreen;
+            }
+            p{margin-bottom: 20px;
+            text-align: justify;
+            }
+            main nav{
+                width: 40%;
+            }
+            main nav ul li{
+                width: 20%;
+                color: black;
+            }
+            ul li{
+                width: 10%;
+                height: 30;
+                background-color: deeppink;
+                color: springgreen;
+                list-style-type: none;
+                display: inline-block;
+                text-align: center;
+                padding: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-bottom: 10px;
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+        <h1>ENLACES EN HTML</h1>
+        </header>
+        <nav>
+                <ul>
+                    <li><a href="formatos%20texto.html">Formatos</a> </li>
+                    <li><a href="Listas%20en%20html.html">Listas</a></li>
+                    <li><a href="enlaces.html">Enlaces</a></li>
+                    <li>Tablas</li>
+                    <li>Imagenes</li>
+                    <li>Audio</li>
+                    <li>Video</li>
+                </ul>
+            
+        </nav>
+        <main>
+            <section>
+                <h2 id="externos">Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget placerat nulla, vitae interdum nunc. Donec commodo pharetra nibh, sed semper ex fringilla vel. Nulla  <a href="https://www.buap.mx" target="_blank"> BUAP</a>vel orci et est pellentesque vestibulum. Ut maximus nisi quis lorem elementum, id feugiat purus fringilla. Proin ullamcorper leo turpis, ac pellentesque ligula dignissim vel. Vivamus porta sagittis mi eu tempus. Donec mollis ipsum tellus, sed porttitor urna laoreet mollis. Fusce pharetra laoreet nisi non commodo. Proin pretium, urna et consectetur elementum, sem elit ornare dui, id sagittis metus augue nec mauris. Phasellus fermentum metus felis, sed convallis ex iaculis quis. Praesent elementum turpis sit.</p>
+            </section>
+            <section>
+                <h2 id="internos">Enlaces interno</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis massa vitae urna volutpat, quis accumsan nulla bibendum. Cras at lectus vitae lorem semper cursus. Nullam consequat lectus eu metus dapibus, in ultrices ligula egestas. Morbi <a href="formatos%20texto.html" target="_blank">Formatos de texto</a>  vehicula accumsan consequat. Praesent vel tellus in velit congue posuere. Vivamus sit amet lectus mollis leo interdum egestas. Donec orci nisi, ultrices a tristique eget, dictum non ante. Nunc pharetra, ex dignissim tincidunt interdum.</p>
+            </section>
+            <section>
+            <h2 id="archivo">Enlaces a archivo</h2>
+                <p>Nulla vel orci et est pellentesque vestibulum. Ut maximus nisi quis lorem elementum, id feugiat purus fringilla.Vivamus porta sagittis mi eu tempus. Donec mollis ipsum tellus, <a href="Olivares%20Montes%20Evelin%20Johana_Formatos%20texto.pdf" target="_blank">Codigos de formatos de practica de texto</a> sed porttitor urna laoreet mollis. Fusce pharetra laoreet nisi non commodo. Proin pretium, urna et consectetur elementum, sem elit ornare dui, id sagittis metus augue nec mauris. Phasellus fermentum metus felis, sed convallis ex iaculis quis. Praesent elementum turpis sit.</p>
+            </section>
+            <section>
+                <h2 id="descarga">Enlaces de descarga</h2>
+                <p>Nulla vel orci et est pellentesque vestibulum. Ut maximus nisi quis lorem elementum, id feugiat purus fringilla. Proin ullamcorper leo turpis, ac pellentesque ligula dignissim vel. Vivamus porta sagittis mi eu tempus. Donec mollis ipsum tellus, sed porttitor urna laoreet mollis. Fusce pharetra laoreet nisi non commodo. Proin pretium, urna et consectetur elementum, sem elit ornare dui, id sagittis metus augue nec mauris. Phasellus fermentum metus felis, sed convallis ex <a href="Olivares%20Montes%20Evelin%20Johana_Formatos%20texto.png" download>Previsualizacion de pagina</a> iaculis quis. Praesent elementum turpis sit.Nulla vel orci et est pellentesque vestibulum. Ut maximus nisi quis lorem elementum, id feugiat purus fringilla. Proin ullamcorper leo turpis, ac pellentesque ligula dignissim vel. Vivamus porta sagittis mi eu tempus. Donec mollis ipsum tellus, sed porttitor urna laoreet mollis. Fusce pharetra laoreet nisi non commodo. Proin pretium, urna et consectetur elementum, sem elit ornare dui, id sagittis metus augue nec mauris. Phasellus fermentum metus felis, sed convallis ex iaculis quis. Praesent elementum turpis sit.</p>
+            </section>
+            <section>
+                <h2>Enlaces</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis massa vitae urna volutpat, quis accumsan nulla bibendum. Cras at lectus vitae lorem semper cursus. Nullam consequat lectus eu metus dapibus, in ultrices ligula egestas. Morbi vehicula accumsan consequat. Praesent vel tellus in velit congue posuere. Vivamus sit amet lectus mollis leo interdum egestas. Donec orci nisi, ultrices a tristique eget, dictum non ante. Nunc pharetra, ex dignissim tincidunt interdum.</p>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#externos">Externos</a>
+                    </li>
+                    <li><a href="#internos">Internos</a>
+                    </li>
+                    <li><a href="#archivo">Archivo</a>
+                    </li>
+                    <li><a href="#descarga">Descarga</a>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+            
+        <footer>
+            <h6>Elaborado por Olivares Montes Evelin Johana<h6>
+        </footer>
+    </body>
+</html>
